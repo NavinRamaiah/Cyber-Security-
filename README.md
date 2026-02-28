@@ -9,132 +9,131 @@
 ## 📂 Table of Contents
 1. Introduction  
 2. Reconnaissance Tools  
-   - Recon-ng  
    - Nmap  
-   - Hping3  
    - DNSRecon  
+   - Hping3  
 3. Maintaining Access Tools  
-   - Metasploit  
-   - Weevely  
    - Cryptcat  
+   - Weevely  
+   - Metasploit  
 4. Comparison & Conclusions  
 5. References  
 
 ---
 
 ## 🔎 Introduction
-In this assignment, I explored **Kali Linux tools** for two phases of penetration testing:  
-- **Reconnaissance** (information gathering)  
-- **Maintaining Access** (persistence after exploitation)
-## 🕵️ Reconnaissance Tools
+This assignment demonstrates reconnaissance and maintaining access using **Kali Linux tools** in a controlled VirtualBox environment.  
+* Reconnaissance tools: Nmap, DNSRecon, Hping3  
+* Maintaining access tools: Cryptcat, Weevely, Metasploit  
 
-### 1. Recon-ng
-**Features tested:**
-- Workspace creation  
-- Module usage for domain reconnaissance  
-- Exporting results  
-
-**Screenshots:**  
-![Recon-ng Result](screenshots/reconng_result.png)
+Screenshots were taken during testing, with sensitive information blacked out.
 
 ---
 
-### 2. Nmap
-**Features tested:**
-- Port scanning  
-- Service/version detection  
-- OS fingerprinting  
+## 🕵️ Reconnaissance Tools
 
-**Screenshots:**
-![Nmap Result](WhatsApp%20Image%202026-02-28%20at%2020.58.00.png)
-https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.18%20AM%20(1).jpeg
+### 1. Nmap
+**Features tested:**
+* Basic port scan (`nmap localhost`)  
+* Service/version detection (`nmap -sV localhost`)  
+* Aggressive scan with OS detection (`nmap -A localhost`)  
+
+**Screenshots:**  
+![Nmap Basic Scan](screenshots/nmap_localhost.png)  
+![Nmap Service Detection](screenshots/nmap_sV.png)  
+![Nmap Aggressive Scan](screenshots/nmap_A.png)
+
+---
+
+### 2. DNSRecon
+**Features tested:**
+* Domain resolution (`nslookup google.com`)  
+* DNS record enumeration (`dnsrecon -d google.com`)  
+* Subdomain brute force (`dnsrecon -d google.com -t brt`)  
+
+**Screenshots:**  
+![DNSRecon Lookup](screenshots/dnsrecon_nslookup.png)  
+![DNSRecon Enumeration](screenshots/dnsrecon_enum.png)  
+![DNSRecon Subdomains](screenshots/dnsrecon_brt.png)
+
 ---
 
 ### 3. Hping3
 **Features tested:**
-- TCP SYN scan  
-- ICMP ping  
-- Traceroute functionality  
+* ICMP ping (`hping3 -1 localhost`)  
+* TCP SYN scan (`hping3 -S -p 80 google.com`)  
+* UDP test (`hping3 -2 -p 53 google.com`)  
 
 **Screenshots:**  
-![Hping3 Result](screenshots/hping3_result.png)
+![Hping3 ICMP](screenshots/hping3_icmp.png)  
+![Hping3 TCP SYN](screenshots/hping3_tcp.png)  
+![Hping3 UDP](screenshots/hping3_udp.png)
 
 ---
 
-### 4. DNSRecon
+## 🔐 Maintaining Access Tools
+
+### 1. Cryptcat
 **Features tested:**
-- Standard DNS enumeration  
-- Zone transfer testing  
-- Reverse lookup  
+* Listener setup (`cryptcat -l -p 4444`)  
+* Client connection (`cryptcat 127.0.0.1 4444`)  
+* Encrypted bidirectional communication  
 
 **Screenshots:**  
-![DNSRecon Result](screenshots/dnsrecon_result.png)
-- ## 🔐 Maintaining Access Tools
-
-### 1. Metasploit
-**Features tested:**
-- Exploit execution  
-- Meterpreter session management  
-- Persistence module  
-
-**Screenshots:**  
-![Metasploit Result](screenshots/metasploit_result.png)
+![Cryptcat Listener](screenshots/cryptcat_listener.png)  
+![Cryptcat Connection](screenshots/cryptcat_connection.png)
 
 ---
 
 ### 2. Weevely
 **Features tested:**
-- Generating a backdoor  
-- Remote command execution  
-- Privilege escalation attempts  
+* Generate PHP backdoor (`weevely generate password123 shell.php`)  
+* Host shell with PHP server (`php -S 127.0.0.1:8000`)  
+* Remote command execution (`weevely http://127.0.0.1:8000/shell.php password123`)  
 
 **Screenshots:**  
-![Weevely Result](screenshots/weevely_result.png)
+![Weevely Shell Generated](screenshots/weevely_generate.png)  
+![Weevely Connection](screenshots/weevely_connect.png)  
+![Weevely Commands](screenshots/weevely_commands.png)
 
 ---
 
-### 3. Cryptcat
+### 3. Metasploit
 **Features tested:**
-- Encrypted communication  
-- Reverse shell setup  
-- File transfer  
+* Launch framework (`msfconsole`)  
+* Configure handler (`use exploit/multi/handler`)  
+* Reverse shell payload setup (`set payload generic/shell_reverse_tcp`)  
 
 **Screenshots:**  
-![Cryptcat Result](screenshots/cryptcat_result.png)
+![Metasploit Console](screenshots/metasploit_console.png)  
+![Metasploit Handler](screenshots/metasploit_handler.png)  
+![Metasploit Payload](screenshots/metasploit_payload.png)
+
+---
 
 ## 📊 Comparison & Conclusions
 
 ### Reconnaissance Tools
-- **Recon-ng** provided a structured framework for domain reconnaissance, making it easy to organize results.  
-- **Nmap** was the most versatile, offering port scanning, service detection, and OS fingerprinting in one tool.  
-- **Hping3** allowed packet‑level testing, useful for simulating different types of traffic.  
-- **DNSRecon** specialized in DNS enumeration, zone transfer testing, and reverse lookups.
-
-**Conclusion:** Reconnaissance tools focus on **information gathering**. They help identify open ports, services, DNS records, and potential attack surfaces before exploitation.
-
----
+* **Nmap**: Automated port/service scanning, OS detection.  
+* **DNSRecon**: Domain-level enumeration, DNS records, subdomains.  
+* **Hping3**: Protocol-level testing with ICMP, TCP, UDP.  
 
 ### Maintaining Access Tools
-- **Metasploit** offered advanced persistence modules and session management, making it powerful for long‑term access.  
-- **Weevely** was lightweight and effective for generating PHP backdoors and executing remote commands.  
-- **Cryptcat** enabled encrypted communication and reverse shells, ensuring stealth and secure persistence.
+* **Cryptcat**: Simple encrypted TCP communication.  
+* **Weevely**: Web-based backdoor with HTTP traffic blending.  
+* **Metasploit**: Structured exploitation framework with session management.  
 
-**Conclusion:** Maintaining access tools focus on **persistence and stealth**. They allow attackers to remain inside a system after exploitation, often bypassing detection through encryption or covert channels.
-
----
-
-### Overall Comparison
-- Reconnaissance tools are **proactive**: they gather intelligence before exploitation.  
-- Maintaining access tools are **reactive**: they ensure persistence after exploitation.  
-- Combining both phases provides a **complete penetration testing workflow** — from discovery to persistence.  
-- Tools like **Nmap + Metasploit** form the backbone of many penetration tests, while **Weevely and Cryptcat** demonstrate lightweight but effective persistence techniques.
+**Conclusion:**  
+Reconnaissance tools gather intelligence before exploitation, while maintaining access tools ensure persistence after exploitation. Together, they form a complete penetration testing workflow.
 
 ---
+
 ## 📚 References
-- Recon-ng Documentation – [HackerTarget Recon-ng Tutorial](https://hackertarget.com/recon-ng-tutorial)   
-- Nmap Official Guide – [Nmap.org Documentation](https://nmap.org/book/man.html)  
-- Hping3 Manual – [Kali Linux Tools: Hping3](https://www.kali.org/tools/hping3/)   
-- DNSRecon GitHub – [DNSRecon Repository](https://github.com/darkoperator/dnsrecon)  
-- Metasploit Documentation – [Rapid7 Metasploit Documentation](https://docs.rapid7.com/metasploit/)  
+* Nmap Documentation – [Nmap.org](https://nmap.org/book/man.html)  
+* DNSRecon GitHub – [DNSRecon Repository](https://github.com/darkoperator/dnsrecon)  
+* Hping3 Manual – [Kali Linux Tools: Hping3](https://www.kali.org/tools/hping3/)  
+* Cryptcat Documentation – [Cryptcat SourceForge](http://cryptcat.sourceforge.net/)  
+* Weevely GitHub – [Weevely Repository](https://github.com/epinna/weevely3)  
+* Metasploit Documentation – [Rapid7 Metasploit Docs](https://docs.rapid7.com/metasploit/)  ps://docs.rapid7.com/metasploit/)  
 - Weevely GitHub – [Weevely Repository](https://github.com/epinna/weevely3)  
 - Cryptcat Documentation – [Cryptcat Manual](http://cryptcat.sourceforge.net/)  
