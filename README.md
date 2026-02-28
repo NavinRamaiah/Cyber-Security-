@@ -102,7 +102,6 @@ In this assignment, I explored **Kali Linux tools** for two phases of penetratio
 **Screenshots:**  
 ![Cryptcat Result](screenshots/cryptcat_result.png)
 
-Each tool was tested with at least **three features**, and screenshots were taken to demonstrate usage. Sensitive information such as IP addresses and domains has been blacked out.
 ## 📊 Comparison & Conclusions
 
 ### Reconnaissance Tools
