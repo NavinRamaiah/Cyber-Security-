@@ -91,9 +91,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * Remote command execution (`weevely http://127.0.0.1:8000/shell.php password123`)  
 
 **Screenshots:**  
-![Weevely Shell Generated](screenshots/weevely_generate.png)  
-![Weevely Connection](screenshots/weevely_connect.png)  
-![Weevely Commands](screenshots/weevely_commands.png)
+![Weevely Shell Generated](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM.jpeg)  
 
 ---
 
