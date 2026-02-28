@@ -47,7 +47,7 @@ In this assignment, I explored **Kali Linux tools** for two phases of penetratio
 
 **Screenshots:**
 ![Nmap Result](WhatsApp%20Image%202026-02-28%20at%2020.58.00.png)
-
+https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.18%20AM%20(1).jpeg
 ---
 
 ### 3. Hping3
