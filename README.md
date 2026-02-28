@@ -54,7 +54,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 **Screenshots:**  
 ![DNSRecon Lookup](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.19%20AM%20(1).jpeg)  
 ![DNSRecon Enumeration](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.20%20AM.jpeg)  
-![DNSRecon Subdomains](screenshots/dnsrecon_brt.png)
+![DNSRecon Subdomains](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2011.27.33%20AM.jpeg)
 
 ---
 
