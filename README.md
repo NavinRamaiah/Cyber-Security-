@@ -1,4 +1,4 @@
-# 🛡️ Cyber Security Assignment 1  
+# 🛡️ Cyber Security Assignment 1
 ---
 
 ## 📂 Table of Contents
@@ -10,7 +10,7 @@
    - DNSRecon  
 3. Maintaining Access Tools  
    - Metasploit  
-   - Weevely   
+   - Weevely  
    - Cryptcat  
 4. Comparison & Conclusions  
 5. References  
@@ -35,7 +35,7 @@ Each tool was tested with at least **three features**, and screenshots were take
 - Exporting results  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Recon-ng Result](screenshots/reconng_result.png)
 
 ---
 
@@ -46,7 +46,7 @@ Each tool was tested with at least **three features**, and screenshots were take
 - OS fingerprinting  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Nmap Result](screenshots/nmap_result.png)
 
 ---
 
@@ -57,7 +57,7 @@ Each tool was tested with at least **three features**, and screenshots were take
 - Traceroute functionality  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Hping3 Result](screenshots/hping3_result.png)
 
 ---
 
@@ -68,48 +68,49 @@ Each tool was tested with at least **three features**, and screenshots were take
 - Reverse lookup  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![DNSRecon Result](screenshots/dnsrecon_result.png)
 
 ---
 
 ## 🔐 Maintaining Access Tools
 
-### 1. Metassploit
+### 1. Metasploit
 **Features tested:**
-- Script execution  
+- Exploit execution  
+- Meterpreter session management  
 - Persistence module  
-- Credential harvesting  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Metasploit Result](screenshots/metasploit_result.png)
 
 ---
 
-### 3. Weevely
+### 2. Weevely
 **Features tested:**
 - Generating a backdoor  
 - Remote command execution  
 - Privilege escalation attempts  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Weevely Result](screenshots/weevely_result.png)
 
 ---
-### 5. Cryptcat
+
+### 3. Cryptcat
 **Features tested:**
 - Encrypted communication  
 - Reverse shell setup  
 - File transfer  
 
 **Screenshots:**  
-*(Insert your screenshots here with explanations)*  
+![Cryptcat Result](screenshots/cryptcat_result.png)
 
 ---
 
 ## 📊 Comparison & Conclusions
 - **Reconnaissance tools** focus on **information gathering** (ports, services, DNS records).  
-- **Maintaining access tools** focus on **persistence and stealth** (backdoors, tunneling, encrypted communication).  
-- Recon-ng and Nmap are more structured and widely used for scanning, while tools like Weevely and Cryptcat are lightweight but effective for persistence.  
+- **Maintaining access tools** focus on **persistence and stealth** (backdoors, encrypted communication, reverse shells).  
+- Recon-ng and Nmap are structured and widely used for scanning, while tools like Weevely and Cryptcat are lightweight but effective for persistence.  
 - Overall, combining reconnaissance and persistence tools provides a **complete penetration testing workflow**.  
 
 ---
@@ -119,6 +120,6 @@ Each tool was tested with at least **three features**, and screenshots were take
 - Nmap Official Guide  
 - Hping3 Manual  
 - DNSRecon GitHub  
-- Powersploit GitHub  
+- Metasploit Documentation  
 - Weevely GitHub  
 - Cryptcat Documentation  
