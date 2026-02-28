@@ -39,7 +39,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * Aggressive scan with OS detection (`nmap -A localhost`)  
 
 **Screenshots:**  
-![Nmap Basic Scan](WhatsApp Image 2026-02-28 at 10.32.18 AM.jpeg.png)
+![Nmap Basic Scan](screenshots/nmap_localhost.png) 
 ![Nmap Service Detection](screenshots/nmap_sV.png)  
 ![Nmap Aggressive Scan](screenshots/nmap_A.png)
 
