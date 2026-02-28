@@ -26,7 +26,7 @@
 In this assignment, I explored **Kali Linux tools** for two phases of penetration testing:  
 - **Reconnaissance** (information gathering)  
 - **Maintaining Access** (persistence after exploitation)
-- ## 🕵️ Reconnaissance Tools
+## 🕵️ Reconnaissance Tools
 
 ### 1. Recon-ng
 **Features tested:**
@@ -46,7 +46,7 @@ In this assignment, I explored **Kali Linux tools** for two phases of penetratio
 - OS fingerprinting  
 
 **Screenshots:**  
-![Nmap Result](WhatsApp Image 2026-02-28 at 10.32.18 AM (1).jpeg)
+![Nmap Result](screenshots/nmap_result.png)
 
 ---
 
