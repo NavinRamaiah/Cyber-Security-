@@ -46,7 +46,7 @@ In this assignment, I explored **Kali Linux tools** for two phases of penetratio
 - OS fingerprinting  
 
 **Screenshots:**  
-![Nmap Result](screenshots/nmap_result.png)
+![Nmap Result](WhatsApp Image 2026-02-28 at 10.32.18 AM (1).jpeg)
 
 ---
 
