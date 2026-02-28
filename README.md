@@ -66,7 +66,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 
 **Screenshots:**  
 ![Hping3 ICMP](screenshots/hping3_icmp.png)  
-![Hping3 TCP SYN](screenshots/hping3_tcp.png)  
+![Hping3 TCP SYN](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM.jpeg)  
 ![Hping3 UDP](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM%20(1).jpeg)
 
 ---
