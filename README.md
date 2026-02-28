@@ -9,10 +9,8 @@
    - Hping3  
    - DNSRecon  
 3. Maintaining Access Tools  
-   - Powersploit  
-   - Webshells  
-   - Weevely  
-   - Dns2tcp  
+   - Metasploit  
+   - Weevely   
    - Cryptcat  
 4. Comparison & Conclusions  
 5. References  
@@ -76,22 +74,11 @@ Each tool was tested with at least **three features**, and screenshots were take
 
 ## 🔐 Maintaining Access Tools
 
-### 1. Powersploit
+### 1. Metassploit
 **Features tested:**
 - Script execution  
 - Persistence module  
 - Credential harvesting  
-
-**Screenshots:**  
-*(Insert your screenshots here with explanations)*  
-
----
-
-### 2. Webshells
-**Features tested:**
-- Uploading a PHP webshell  
-- Executing commands remotely  
-- File manipulation  
 
 **Screenshots:**  
 *(Insert your screenshots here with explanations)*  
@@ -108,18 +95,6 @@ Each tool was tested with at least **three features**, and screenshots were take
 *(Insert your screenshots here with explanations)*  
 
 ---
-
-### 4. Dns2tcp
-**Features tested:**
-- DNS tunneling setup  
-- Data transfer through DNS  
-- Stealth communication  
-
-**Screenshots:**  
-*(Insert your screenshots here with explanations)*  
-
----
-
 ### 5. Cryptcat
 **Features tested:**
 - Encrypted communication  
