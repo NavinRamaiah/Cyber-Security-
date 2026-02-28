@@ -105,7 +105,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * Reverse shell payload setup (`set payload generic/shell_reverse_tcp`)  
 
 **Screenshots:**  
-![Metasploit Console](screenshots/metasploit_console.png)  
+![Metasploit Console](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2011.27.34%20AM.jpeg)  
 ![Metasploit Handler](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM.jpeg)  
 ![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
 
