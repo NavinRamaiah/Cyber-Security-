@@ -40,7 +40,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 
 **Screenshots:**  
 ![Nmap Basic Scan](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.18%20AM.jpeg) 
-![Nmap Service Detection](screenshots/nmap_sV.png)  
+![Nmap Service Detection](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.18%20AM%20(1).jpeg)  
 ![Nmap Aggressive Scan](screenshots/nmap_A.png)
 
 ---
