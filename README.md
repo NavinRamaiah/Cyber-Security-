@@ -107,7 +107,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 **Screenshots:**  
 ![Metasploit Console](screenshots/metasploit_console.png)  
 ![Metasploit Handler](screenshots/metasploit_handler.png)  
-![Metasploit Payload](screenshots/metasploit_payload.png)
+![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
 
 ---
 
