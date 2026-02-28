@@ -80,7 +80,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * Encrypted bidirectional communication  
 
 **Screenshots:**  
-![Cryptcat Listener](screenshots/cryptcat_listener.png)  
+![Cryptcat Listener](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM%20(2).jpeg)  
 ![Cryptcat Connection](screenshots/cryptcat_connection.png)
 
 ---
