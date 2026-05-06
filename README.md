@@ -126,10 +126,10 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * **File Enumeration (`ls`):** Used to list files in the current directory, allowing the tester to identify sensitive configuration files or source code for further analysis.
 
 **Screenshots:**  
+![Webshell ls](webshell_output.png.png)
 ![Webshell whoami](webshell_whoami.png.png)  
 ![Webshell pwd](webshell_pwd.png.png)  
 ![Webshell ls](webshell_ls.png.png)
-![Webshell ls](webshell_output.png.png)
 
 ---
 ### 5. PowerSploit (Persistence Module)
