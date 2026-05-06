@@ -77,6 +77,8 @@ Screenshots were taken during testing, with sensitive information blacked out.
 **Features tested:**
 
 **Screenshots:**
+
+  ![DNSRecon Output](dnsrecon_output.png.png)
   
 ---
 
@@ -124,7 +126,7 @@ List available persistence functions (Get-Command -Module Persistence)
 Registry persistence option (New-UserPersistenceOption -Registry -AtLogon)
 
 **Screenshots:**
-(screenshots/powersploit_import.png)  
+
 ---
 ### 5. Webshells
 **Features tested:**
