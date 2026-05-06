@@ -120,16 +120,16 @@ Features tested:**
 ![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
 
 ---
-### 4. Powersploit
+### 4. Webshells (PHP-based)
 **Features tested:**
+* **System Identification (`whoami`):** Used to determine the privilege level of the web server user (e.g., `www-data`), which helps in planning for potential privilege escalation.
+* **Directory Navigation (`pwd`):** Used to confirm the current working directory on the remote server, ensuring the tester knows exactly where they are within the web root.
+* **File Enumeration (`ls`):** Used to list files in the current directory, allowing the tester to identify sensitive configuration files or source code for further analysis.
 
-Import Persistence module (Import-Module ./Persistence.psm1)
-
-List available persistence functions (Get-Command -Module Persistence)
-
-Registry persistence option (New-UserPersistenceOption -Registry -AtLogon)
-
-**Screenshots:**
+**Screenshots:**  
+![Webshell whoami](webshell_whoami.png.png)  
+![Webshell pwd](webshell_pwd.png.png)  
+![Webshell ls](webshell_ls.png.png)
 
 ---
 ### 5. Webshells
