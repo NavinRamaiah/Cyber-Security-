@@ -116,6 +116,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 ---
 ### 4. Powersploit
 **Features tested:**
+
 Import Persistence module (Import-Module ./Persistence.psm1)
 
 List available persistence functions (Get-Command -Module Persistence)
