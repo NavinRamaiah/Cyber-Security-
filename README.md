@@ -129,6 +129,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 ![Webshell whoami](webshell_whoami.png.png)  
 ![Webshell pwd](webshell_pwd.png.png)  
 ![Webshell ls](webshell_ls.png.png)
+![Webshell ls](webshell_output.png.png)
 
 ---
 ### 5. PowerSploit (Persistence Module)
