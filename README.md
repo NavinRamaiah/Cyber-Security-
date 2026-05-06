@@ -146,8 +146,8 @@ Features tested:**
 ## 📊 Comparison & Conclusions
 | Phase | Tool Examples | Primary Function |
 | :--- | :--- | :--- |
-| **Reconnaissance** | Nmap, DNSRecon | Gathering intelligence and mapping the attack surface[cite: 1]. |
-| **Maintaining Access** | Webshells, PowerSploit | Ensuring long-term, stealthy control after exploitation[cite: 1]. |
+| **Reconnaissance** | Nmap, DNSRecon,Hping3,Recon-ng | Gathering intelligence and mapping the attack surface[cite: 1]. |
+| **Maintaining Access** | Webshells, PowerSploit,weevely,Crypcat,Metasploit| Ensuring long-term, stealthy control after exploitation[cite: 1]. |
 
 **Conclusion:** Reconnaissance provides the roadmap, while maintaining access ensures persistence[cite: 1].
 
