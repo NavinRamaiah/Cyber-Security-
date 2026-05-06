@@ -144,19 +144,12 @@ Features tested:**
 ---
 
 ## 📊 Comparison & Conclusions
+| Phase | Tool Examples | Primary Function |
+| :--- | :--- | :--- |
+| **Reconnaissance** | Nmap, DNSRecon | Gathering intelligence and mapping the attack surface[cite: 1]. |
+| **Maintaining Access** | Webshells, PowerSploit | Ensuring long-term, stealthy control after exploitation[cite: 1]. |
 
-### Reconnaissance Tools
-* **Nmap**: Automated port/service scanning, OS detection.  
-* **DNSRecon**: Domain-level enumeration, DNS records, subdomains.  
-* **Hping3**: Protocol-level testing with ICMP, TCP, UDP.  
-
-### Maintaining Access Tools
-* **Cryptcat**: Simple encrypted TCP communication.  
-* **Weevely**: Web-based backdoor with HTTP traffic blending.  
-* **Metasploit**: Structured exploitation framework with session management.  
-
-**Conclusion:**  
-Reconnaissance tools gather intelligence before exploitation, while maintaining access tools ensure persistence after exploitation. Together, they form a complete penetration testing workflow.
+**Conclusion:** Reconnaissance provides the roadmap, while maintaining access ensures persistence[cite: 1].
 
 ---
 
