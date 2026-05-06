@@ -75,7 +75,6 @@ Screenshots were taken during testing, with sensitive information blacked out.
 ---
 ### 4. Recon-ng
 **Features tested:**
-Features tested:**
 * **Marketplace Search:** Used to browse the extensive module library to find relevant reconnaissance scripts for the target domain.
 * **Module Installation:** Used to download and install specific modules (e.g., `bing_domain_web`) directly into the Recon-ng framework.
 * **Automated Reconnaissance:** Used to execute modules against a target domain to automatically harvest publicly available URLs and host information.
