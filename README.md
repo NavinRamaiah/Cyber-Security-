@@ -1,6 +1,6 @@
 # 🛡️ Cyber Security Assignment 1
 ---
-
+> **Disclaimer:** This project is for educational purposes only. All testing was performed in a controlled environment or on authorized targets.
 ## 👥 Group Members
 - **PHRINCE POWLGREAT DIDYMUS** (25030698)  
 - **NAVIN RAMAIAH** (25030584)  
