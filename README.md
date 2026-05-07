@@ -111,7 +111,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 ---
 
 ### 2. Dns2tcp
-### 9. Dns2tcp
+
 **Features tested:**
 * **Feature 1: Installation & Manual Analysis** - Accessed the help menu to identify flags like `-z` and `-r`.
 * **Feature 2: Resource Configuration** - Created the `.dns2tcprc` file to map SSH resources.
