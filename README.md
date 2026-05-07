@@ -89,12 +89,14 @@ Screenshots were taken during testing, with sensitive information blacked out.
 
 ### 1. Cryptcat
 **Features tested:**
-* Listener setup (`cryptcat -l -p 4444`)  
-* Client connection (`cryptcat 127.0.0.1 4444`)  
-* Encrypted bidirectional communication  
+* **Feature 1: Encrypted Listener Setup** - Initializing a secure port to wait for target connection.
+* **Feature 2: Bidirectional Communication** - Establishing a secure chat between two nodes.
+* **Feature 3: Encrypted File Transfer** - Exfiltrating data (secret.txt) across the network stealthily.
 
-**Screenshots:**  
-![Cryptcat Listener](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM%20(2).jpeg) 
+**Screenshots:**
+![Cryptcat Listener](link_to_your_cropped_blacked_out_image1.png)
+![Cryptcat Chat](link_to_your_cropped_blacked_out_image2.png)
+![Cryptcat Transfer](link_to_your_cropped_blacked_out_image3.png)
 
 ---
 
