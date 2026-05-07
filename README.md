@@ -16,7 +16,7 @@
 3. Maintaining Access Tools  
    - Cryptcat  
    - Weevely  
-   - Metasploit
+   - Dns2tcp
    - Powersploit
    - Webshells
 4. Comparison & Conclusions  
@@ -67,8 +67,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * TCP SYN scan (`hping3 -S -p 80 google.com`)  
 * UDP test (`hping3 -2 -p 53 google.com`)  
 
-**Screenshots:**  
-![Hping3 ICMP](screenshots/hping3_icmp.png)  
+**Screenshots:**   
 ![Hping3 TCP SYN](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM.jpeg)  
 ![Hping3 UDP](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.21%20AM%20(1).jpeg)
 
@@ -94,6 +93,7 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * **Feature 3: Encrypted File Transfer** - Exfiltrating data (secret.txt) across the network stealthily.
 
 **Screenshots:**
+
 ![Cryptcat Listener Setup](cryptcat_listener_setup.png.png)
 ![Cryptcat Client Connection](cryptcat_client_connection.png.png)
 
@@ -110,11 +110,15 @@ Screenshots were taken during testing, with sensitive information blacked out.
 
 ---
 
-### 3. Metasploit
+### 2. Dns2tcp
+### 9. Dns2tcp
 **Features tested:**
-* Launch framework (`msfconsole`)  
-* Configure handler (`use exploit/multi/handler`)  
-* Reverse shell payload setup (`set payload generic/shell_reverse_tcp`)  
+* **Feature 1: Installation & Manual Analysis** - Accessed the help menu to identify flags like `-z` and `-r`.
+* **Feature 2: Resource Configuration** - Created the `.dns2tcprc` file to map SSH resources.
+* **Feature 3: Tunnel Establishment** - Successfully initiated the client to listen on local port 2222 for DNS tunneling.
+
+**Screenshots:**
+![Dns2tcp Evidence](dns2tcp_evidence.png)
 
 **Screenshots:**   
 ![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
@@ -148,9 +152,9 @@ Screenshots were taken during testing, with sensitive information blacked out.
 | Phase | Tool Examples | Primary Function |
 | :--- | :--- | :--- |
 | **Reconnaissance** | Nmap, DNSRecon,Hping3,Recon-ng | Gathering intelligence and mapping the attack surface[cite: 1]. |
-| **Maintaining Access** | Webshells, PowerSploit,weevely,Crypcat,Metasploit| Ensuring long-term, stealthy control after exploitation[cite: 1]. |
+| **Maintaining Access** | Webshells, PowerSploit,weevely,Crypcat,Dns2tcp| Ensuring long-term, stealthy control after exploitation[cite: 1]. |
 
-**Conclusion:** Reconnaissance provides the roadmap, while maintaining access ensures persistence[cite: 1].
+**Conclusion:** A successful penetration test requires a transition from loud discovery to quiet, persistent access. Mastering these 9 tools allows a security professional to evaluate both the visible and hidden risks within a network..
 
 ---
 
