@@ -94,9 +94,8 @@ Screenshots were taken during testing, with sensitive information blacked out.
 * **Feature 3: Encrypted File Transfer** - Exfiltrating data (secret.txt) across the network stealthily.
 
 **Screenshots:**
-![Cryptcat Listener](link_to_your_cropped_blacked_out_image1.png)
-![Cryptcat Chat](link_to_your_cropped_blacked_out_image2.png)
-![Cryptcat Transfer](link_to_your_cropped_blacked_out_image3.png)
+![Cryptcat Listener Setup](cryptcat_listener_setup.png.png)
+![Cryptcat Client Connection](cryptcat_client_connection.png.png)
 
 ---
 
