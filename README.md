@@ -120,8 +120,6 @@ Screenshots were taken during testing, with sensitive information blacked out.
 **Screenshots:**
 ![Dns2tcp Evidence](dns2tcp_evidence.png.png)
 
-**Screenshots:**   
-![Metasploit Payload](https://github.com/NavinRamaiah/Cyber-Security-/blob/main/WhatsApp%20Image%202026-02-28%20at%2010.32.22%20AM%20(1).jpeg)
 
 ---
 ### 4. Webshells (PHP-based)
